@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section.home {
+    position: relative;
+    width: 100%;
+    /* background: url(main2.png) no-repeat;
+    background-position:800px 0px;
+    background-size: 500px 500px; */
+}
+
+/* @media screen and (max-width: 1200px) {
+    header .mobile-toggle {
+        position: relative;
+        width: 100%;
+        background: url(main2.png) no-repeat;
+        background-position:800px 0px;
+        background-size: 500px 500px;
+    }
+} */
+section.project {
+    position: relative;
+    width: 100%;
+}
+
+header {
+    margin: 0;
+    top: 0;
+    width: 100%;
+    position: relative;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    header .navigation,
+    header .main-btn {
+        display: none;
+    }
+
+    header .mobile-toggle {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    header .mobile-toggle {
+        display: none;
+    }
+}
+ .house{
+    font-size: 14px ;
+}
+header .logo {
+    position: relative;
+    width: 100%;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header .navigation {
+    align-items: center;
+
+}
+
+header .navigation a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+a.main-btn {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff !important;
+    padding: 8px 13px !important;
+    border-radius: 100px;
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(255, 0, 52, 1) 87%);
+}
+
+div.body-btn {
+    font-size: 22px;
+    max-width: 100%;
+    color: #000;
+    background-color: #fff;
+    border: 2px, #000;
+}
+
+div.content-home {
+    max-width: 700px;
+    font-size: 20px;
+    position: relative;
+    padding: 60px 80px;
+}
+
+div.context-project {
+    max-width: 100%;
+    font-size: 20px;
+    position: relative;
+    padding: 20px 0px 0px 80px;
+}
+
+div.context-project h3 {
+    font-weight: 600;
+}
+
+.info h2 {
+    line-height: 40px;
+}
+
+.info p {
+    padding-top: 20px;
+    padding-right: 80px;
+    font-size: 12px;
+}
+
+div.context-project {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+div.column-project {
+    float: left;
+    width: 25%;
+    height: auto;
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width: 1500px) {
+    div.column-project {
+        width: 25%;
+        height: auto;
+        display: flex;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.column-project {
+        width: 40%;
+        height: auto;
+        display: flex;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.column-project {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-bottom: 20px;
+    }
+}
+div.column-info {
+    float: none;
+    width: 25%;
+    height: auto;
+    padding-top: 20px;
+}
+@media screen and (max-width: 1000px) {
+    div.column-info {
+        width: 40%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+div.row-project {
+    margin: 0 -5px;
+}
+div.row-project:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div.card-project {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-right: 40px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    div.card-project {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: #f1f1f1;
+        align-items: center;
+    }
+}
+
+p.info-project{
+    width: 300px;
+}
+
+ p.project-title {
+     margin: 5px;
+}
+
+section.client {
+    position: relative;
+    width: 100%;
+}
+
+div.context-client {
+    font-size: 20px;
+    position: relative;
+    padding: 20px 0px 0px 80px;
+}
+
+div.context-client h3 {
+    font-weight: 600;
+}
