@@ -137,10 +137,17 @@ div.context-project {
 }
 
 div.column-project {
-    float: left;
+    float: left !important;
     width: 25%;
     height: auto;
     padding-top: 20px;
+}
+
+
+div.column-project {
+    float: left !important;
+    width: 25%;
+    height: auto;
 }
 
 
@@ -171,7 +178,7 @@ div.column-project {
     }
 }
 div.column-info {
-    float: none;
+    float: left;
     width: 25%;
     height: auto;
     padding-top: 20px;
